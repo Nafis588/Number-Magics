@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portpholio of Nafis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      
+    <div class="intro">
+        <h1>Assignment 2</h1>
+    </div>
+    <br>
+    <br>
+
+    <div class="quote">
+        <h2>Quate Generator</h2>
+        <div id="inner_q">
+            <p id="quote">Loading...</p>
+
+        </div>
+        <div id="button-container">
+            <button class="color-button" id="c1">Green</button>
+            <button class="color-button" id="c2">Red</button>
+            <button class="color-button" id="c3">Orange</button>
+            <button class="color-button" id="c4">Black</button>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="hero">
+      <h2>Hero Calculator</h2>
+      <div class="hero-container">
+        <input type="number" id="weight" placeholder="Enter weight... ">
+        <select id="conversionType">
+            <option value="kgToLbs" >Kilograms to Pounds</option>
+            <option value="lbsToKg">Pounds to Kilograms</option>
+        </select>
+        <button class="convert-button" onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </div>
+      </div>
+
+      <br>
+      <br>
+  
+      <div id="number">   
+        <h2>Number Series Calculator</h2>
+            <form id="number-form">
+            <input type="text" id="numbers" placeholder="Enter a series of numbers... " size="50">
+        </form>
+    
+            <div class="result-container">
+                <h2>Results:</h2>
+                <p id="max"></p>
+                <p id="min"></p>
+                <p id="sum"></p>
+                <p id="average"></p>
+                <p id="reverse"></p>
+            </div>
+        </div>
+
+    <br>
+    <br>
+    <div id="magic">
+        <h2>Magic Box</h2>
+        <div id="magic-box-container"> 
+            <textarea id="textArea" rows="15" cols="60" placeholder="start typing..."></textarea><br>
+            <div id="ck-box">
+                <button id="clearBtn">Clear All</button>
+                <button id="capitalizeBtn">Capitalize</button>
+                <button id="sortBtn">Sort</button>
+                <button id="reverseBtn">Reverse</button>
+                <button id="stripBlankBtn">Strip Blank</button>
+                <button id="addNumbersBtn">Add Numbers</button>
+                <button id="shuffleBtn">Shuffle</button>
+        </div>
+        </div> 
+    </div>  
+<script src="script.js"></script>
+</body>
+
+</html>
